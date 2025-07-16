@@ -5,7 +5,7 @@
 ![image](https://github.com/idevyogi/ctf-journey/blob/1d2e7439ec3c447fea1c18a03770848f0baff211/Screenshot%202025-07-16%20164113.png)
 ![image](https://raw.githubusercontent.com/idevyogi/ctf-journey/5177707821f5c48910197600dc368d8e2d22ad02/PYRAT%20CTF%20CHALLENGE.png)
 
-# step 1 rustscan 
+# Step 1 rustscan 
 
 PORT     STATE SERVICE  REASON
 22/tcp   open  ssh      syn-ack ttl 60
@@ -14,13 +14,13 @@ PORT     STATE SERVICE  REASON
 i cant go on ssh because i have zero information about credentials
 so i browse port 8000 in fire fox browser
 
-# step 2 http://10.10.121.147:8000/
+# Step 2 http://10.10.121.147:8000/
 Try a more basic connection! 
 
 
 TCP ya UDP connection banaana, jisme data end-to-end stream ke form me exchange hota hai — bina kisi extra formatting ke.
 
-# step 3  Usage of NETCAT for basic connection
+# Step 3  Usage of NETCAT for basic connection
 nc <target_ip> <port>
 
 (idevyogi㉿kali)-[~]
@@ -32,7 +32,7 @@ hello
 name 'hello' is not defined
 
 
-# step 4 as i know defined error is given in programming python so i try their code
+# Step 4 as i know defined error is given in programming python so i try their code
 print(1+1)
 2
 it works so now i will give input of python to retrieve information
