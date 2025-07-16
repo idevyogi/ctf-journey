@@ -7,11 +7,11 @@
 
 # Step 1 rustscan 
 
-PORT     STATE   SERVICE     REASON
+PORT        STATE       SERVICE       REASON
 
-22/tcp   open    ssh         syn-ack ttl 60
+22/tcp      open         ssh         syn-ack ttl 60
 
-8000/tcp open  http-alt    syn-ack ttl 60
+8000/tcp    open      http-alt       syn-ack ttl 60
 
 i cant go on ssh because i have zero information about credentials
 so i browse port 8000 in fire fox browser
